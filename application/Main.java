@@ -7,6 +7,8 @@ public class Main {
         String name = " test";
         int f=5;
 
+        String gurman = "gurman";
+
         System.out.println("Hey");
         System.out.println(a + name);
 
