@@ -5,6 +5,7 @@ public class Main {
 
         int a = 5;
         String name = " test";
+        int f=5;
 
         System.out.println("Hey");
         System.out.println(a + name);
