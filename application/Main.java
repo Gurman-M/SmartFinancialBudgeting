@@ -5,7 +5,7 @@ public class Main {
 
         int a = 5;
         String name = " test";
-        int f=5;
+        int f=6;
 
         String gurman = "gurman";
 
