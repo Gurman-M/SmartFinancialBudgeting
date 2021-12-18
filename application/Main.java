@@ -9,6 +9,7 @@ public class Main {
         jframe.setTitle("Money Budgeter");
 		jframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		jframe.setSize(WIDTH, HEIGHT);
+        jframe.setVisible(true);
 
 
     }
