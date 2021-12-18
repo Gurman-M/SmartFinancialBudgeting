@@ -16,26 +16,25 @@ public class Main {
 
         //slider
         
-         int SML_INC = 25;
-         int MID_INC = 65;
+         int SML_INC = 10;
          int LAG_INC = 100;
+         int MID_INC = 50;
 
         JSlider slider = new JSlider(JSlider.HORIZONTAL,
         SML_INC, LAG_INC, MID_INC);
 
-        slider.setMinorTickSpacing(10);
-        slider.setMajorTickSpacing(25);
+        int slid_val = slider.getValue();
+        slider.setValue(slid_val);
+        
+        slider.setMinorTickSpacing(5);
+        slider.setMajorTickSpacing(20);
         slider.setPaintTicks(true);
         slider.setPaintLabels(true);
-        
-        int income = slider.getValue();
-        
-        
         JPanel panel = new JPanel();
         panel.add(slider);
         jframe.add(panel);
         jframe.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        jframe.setSize(1000, 500);
+        jframe.setSize(500, 300);
         jframe.setVisible(true);
 
 
