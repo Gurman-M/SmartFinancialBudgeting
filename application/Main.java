@@ -51,7 +51,7 @@ public class Main {
         
         budgetBtn.addActionListener(new ActionListener() {
 		    public void actionPerformed(ActionEvent e) {
-		    		incomeLabel.setText("Yearly Income " + slider.getValue() + " 000");
+		    		incomeLabel.setText("Yearly Income: " + slider.getValue() + " 000");
 		    }
 		});
         
