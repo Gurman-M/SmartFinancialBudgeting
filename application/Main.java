@@ -11,7 +11,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Main {
-    
 
     static JButton budgetInfoBtn = new JButton();
     static JButton budgetBtn = new JButton();
