@@ -153,16 +153,16 @@ public class Main {
         incomeLabel.setBounds(485,275,250,25);
         panel.add(incomeLabel);
 
-        budgetInfoBtn.setBounds(375,480,250,25);
+        budgetInfoBtn.setBounds(375,500,250,25);
         panel.add(budgetInfoBtn);
 
-        needs.setBounds(375,530,165,25);
+        needs.setBounds(375,550,165,25);
         panel.add(needs);
 
-        wants.setBounds(375,560,165,25);
+        wants.setBounds(375,580,165,25);
         panel.add(wants);
 
-        savings.setBounds(375,590,300,25);
+        savings.setBounds(375,610,300,25);
         panel.add(savings);
        
     }
