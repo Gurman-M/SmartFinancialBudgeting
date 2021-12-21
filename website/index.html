@@ -103,7 +103,7 @@ body, html {
         <li class="w3-padding-16">
         </li>
         <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-black w3-padding-large mss.html"> <a href="mss.html">Learn More</a></button>
+          <button onClick="myMSSOnClick()" class="w3-button w3-black w3-padding-large mss.html">Learn More</button>
         </li>
       </ul>
     </div>
@@ -160,6 +160,12 @@ function onClick(element) {
   var captionText = document.getElementById("caption");
   captionText.innerHTML = element.alt;
 }
+
+
+  function myMSSOnClick() {
+   document.location.href="mss.html"
+ }
+
 
 
 // Toggle between showing and hiding the sidebar when clicking the menu icon
