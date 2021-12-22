@@ -1,6 +1,133 @@
 <!DOCTYPE html>
 <html>
 
+    <title>Money Budgeting</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+    
+    body, html {
+      height: 100%;
+      line-height: 1.8;
+    }
+    
+    /* Full height image header */
+    .bgimg-1 {
+      background-position: center;
+      background-size: cover;
+      background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwcNBwcNDQcHBw0HBw0HDQ0HBxsICQ0NFREWFhUREx8YHSgkGBolGxYTITEhJSkrLi4uFyEzODMtNygtLisBCgoKDQ0NFw8PFy0dHx0tLS0tKy0tLTctLS0rLTcrNy0tNzc2LS03LTctKy0rLS0tLSstLS03LS0tLSsrKy0rK//AABEIAKMBNQMBIgACEQEDEQH/xAAWAAEBAQAAAAAAAAAAAAAAAAAAAQf/xAAdEAEBAAICAwEAAAAAAAAAAAAAARJRIZERYXEC/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAEFA//EABURAQEAAAAAAAAAAAAAAAAAAAAh/9oADAMBAAIRAxEAPwDUwHJkgAAAAAAAAKCAAAAAAAAAAAAAAAAAAAAAAAAAoAiggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKIoIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqKCAAAAAAAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAoAgAAAKgAAAAAAAAAAAAAAAAAAAKgAAAAAAAAAAAAAqKCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKikVABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABUUEAAAAAAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAFEUEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVFBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAt4+JlPfXIqiZfnZlNgqpLAAUEQUBBQEFAQUBFAEFAQUBBQEFAQUBBQEFAQUBBQEFAQUBKSTU4AVMZqdL4mp0ACgI//Z");
+      min-height: 100%;
+    }
+    
+    .w3-bar .w3-button {
+      padding: 16px;
+    }
+    </style>
+    <body>
+  
+  <!-- Housing Section -->
+  <div class="w3-container w3-center w3-light-blue" style="padding:128px 16px" id="pricing">
+    <h3>AFFORDABLE HOUSING NEAR YOU</h3>
+    <p class="w3-large">Any good budgeting plan needs to include smart purchases. Respective to your city, we have locations that you can shop at and places you can live that fit within your monthly budget.</p>
+    <div class="w3-row-padding" style="margin-top:64px">
+      <div class="w3-third w3-section">
+        <ul class="w3-ul w3-white w3-hover-shadow">
+          <li class="w3-black w3-xlarge w3-padding-32">Toronto</li>
+          <li class="w3-padding-16">Housing and food options for the city of Toronto</li>
+         <li class="w3-padding-16"><b></b> Housing/Apartment Options</li>
+          <li class="w3-padding-16"><b></b> Food Recommendations</li>
+          <li class="w3-padding-16"><b>Updates Coming Soon</b></li>
+          <li class="w3-padding-16">
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-black w3-padding-large">Coming Soon...</button>
+          </li>
+        </ul>
+      </div>
+      <div class="w3-third w3-section">
+        <ul class="w3-ul w3-white w3-hover-shadow">
+          <li class="w3-black w3-xlarge w3-padding-32">Mississauga</li>
+          <li class="w3-padding-16">Housing and food options for the city of Mississauga</li>
+          <li class="w3-padding-16"><b>3</b> Housing/Apartment Options</li>
+          <li class="w3-padding-16"><b>3</b> Food recommendations</li>
+          <li class="w3-padding-16"><b>Continuous </b> Updates</li>
+          <li class="w3-padding-16">
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button onClick="myMSSOnClick()" class="w3-button w3-black w3-padding-large mss.html">Learn More</button>
+          </li>
+        </ul>
+      </div>
+      <div class="w3-third w3-section">
+        <ul class="w3-ul w3-white w3-hover-shadow">
+          <li class="w3-black w3-xlarge w3-padding-32">Brampton</li>
+          <li class="w3-padding-16">Housing and food options for the city of Brampton</li></li>
+          <li class="w3-padding-16"><b></b> Housing/Apartment Options</li>
+          <li class="w3-padding-16"><b></b> Food Recommendations</li>
+          <li class="w3-padding-16"><b>Updates Coming Soon</b></li>
+          <li class="w3-padding-16">
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-black w3-padding-large">Coming Soon...</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
-</body>
+
+   <!-- Food Section -->
+   <div class="w3-container w3-center w3-light-blue" style="padding:128px 16px" id="pricing">
+    <h3>FOOD OPTIONS</h3>
+    <p class="w3-large">Any good budgeting plan needs to include smart purchases. Respective to your city, we have locations that you can shop at and places you can live that fit within your monthly budget.</p>
+    <div class="w3-row-padding" style="margin-top:64px">
+      <div class="w3-third w3-section">
+        <ul class="w3-ul w3-white w3-hover-shadow">
+          <li class="w3-black w3-xlarge w3-padding-32">Toronto</li>
+          <li class="w3-padding-16">Housing and food options for the city of Toronto</li>
+         <li class="w3-padding-16"><b></b> Housing/Apartment Options</li>
+          <li class="w3-padding-16"><b></b> Food Recommendations</li>
+          <li class="w3-padding-16"><b>Updates Coming Soon</b></li>
+          <li class="w3-padding-16">
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-black w3-padding-large">Coming Soon...</button>
+          </li>
+        </ul>
+      </div>
+      <div class="w3-third w3-section">
+        <ul class="w3-ul w3-white w3-hover-shadow">
+          <li class="w3-black w3-xlarge w3-padding-32">Mississauga</li>
+          <li class="w3-padding-16">Housing and food options for the city of Mississauga</li>
+          <li class="w3-padding-16"><b>3</b> Housing/Apartment Options</li>
+          <li class="w3-padding-16"><b>3</b> Food recommendations</li>
+          <li class="w3-padding-16"><b>Continuous </b> Updates</li>
+          <li class="w3-padding-16">
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button onClick="myMSSOnClick()" class="w3-button w3-black w3-padding-large mss.html">Learn More</button>
+          </li>
+        </ul>
+      </div>
+      <div class="w3-third w3-section">
+        <ul class="w3-ul w3-white w3-hover-shadow">
+          <li class="w3-black w3-xlarge w3-padding-32">Brampton</li>
+          <li class="w3-padding-16">Housing and food options for the city of Brampton</li></li>
+          <li class="w3-padding-16"><b></b> Housing/Apartment Options</li>
+          <li class="w3-padding-16"><b></b> Food Recommendations</li>
+          <li class="w3-padding-16"><b>Updates Coming Soon</b></li>
+          <li class="w3-padding-16">
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-black w3-padding-large">Coming Soon...</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
 </html>
