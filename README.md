@@ -1,4 +1,4 @@
-# Budget Balance
+# Smart Financial
 
 *Finance Made Easy*
 
